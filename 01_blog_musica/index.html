@@ -11,41 +11,120 @@
     <link rel="stylesheet" href="css/style-custom.css">
   </head>
   <body>
-    <header>
-        <div class="container">
+    <div class="container">
+      <header class="container cabecera">
         <div class="row">
-          <div class="col-6 text-left">
-            <img src="img/logo.png">
+          <div class="col-3 ">
+            <img src="img/logo.png" class="img-fluid">
           </div>
-          <div class="col-6 text-right">
-              <a href="#">
-                  <i class="fa fa-facebook"></i>
-              </a>
-              <a href="#">
-                  <i class="fa fa-twitter"></i>
-              </a>
-              <a href="#">
-                  <i class="fa fa-instagram"></i>
-              </a>
-              <a href="#">
-                  <i class="fa fa-youtube"></i>
-              </a>
-              <a href="#">
-                  <i class="fa fa-vine"></i>
-              </a>
+          <div class="col-9 text-right redes">
+            <a href="#" class="redes-facebook">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="redes-twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" class="redes-instagram">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#" class="redes-youtube">
+                <i class="fa fa-youtube"></i>
+            </a>
+            <a href="#" class="redes-vine">
+                <i class="fa fa-vine"></i>
+            </a>
           </div>
         </div>
       </header>
-      <div class="container"> 
-        <ul class="nav nav-pills nav-fill">
-          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Letras</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Acordes</a></li>
+      <nav class="container menu"> 
+        <ul class="row nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Artistas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Grupos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Top 10</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Letras</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Acordes</a>
+          </li>
         </ul>
-      </div>
+      </nav>
+      <main class="container cuerpo">
+        <div class="row">
+          <section class="col-9 blog">
+            <article>
+              <div class="row articulo-contenido">
+                <div class="col-7">
+                  <h1>Tributo a los Beatles</h1>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                  <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                  <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                </div>
+                <div class="col-5">
+                  <img src="img/beatles.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <form action="#" role="form">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-2">
+                          <img src="img/user-comment.png" class="img-fluid rounded-circle shadow">                      
+                        </div>
+                        <div class="col-10">
+                          <textarea name="comentario" cols="30" rows="4" class="form-control" placeholder="Comentarios"></textarea>
+                        </div>
+                      </div>
+                    </div>                  
+                  </form>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="row articulo-contenido">
+                <div class="col-7 order-2">
+                  <h1>Kizz mejores exitos</h1>
+                  <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+                  <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                  <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                </div>
+                <div class="col-5 order-1">
+                  <img src="img/kizz.jpg" class="img-fluid">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <form action="#" role="form">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-2">
+                          <img src="img/user-comment.png" class="img-fluid rounded-circle shadow">                      
+                        </div>
+                        <div class="col-10">
+                          <textarea name="comentario" cols="30" rows="4" class="form-control" placeholder="Comentarios"></textarea>
+                        </div>
+                      </div>
+                    </div>                  
+                  </form>
+                </div>
+              </div>              
+            </article>           
+          </section>
+          <section class="col-3 barra">
+
+          </section>
+        </div>
+      </main>  
     </div>
   </body>
 </html>
