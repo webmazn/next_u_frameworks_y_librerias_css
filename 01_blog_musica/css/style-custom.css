@@ -82,3 +82,18 @@ footer a:hover{
 footer a:hover{
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .menu ul li{
+    margin: 0px 0px;
+    width: 100%;
+  }
+  .logo{
+    text-align: center;
+  }
+  .redes{
+    justify-content: center;  
+  }
+  .barra{
+    display: none;
+  }
+}
