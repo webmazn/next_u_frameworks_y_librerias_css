@@ -1,0 +1,56 @@
+body{
+  background-attachment: fixed;
+  background-image: url('../img/fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cabecera h1,
+.cabecera h1 small,
+.cabecera h4{
+  color: #ffffff;
+}
+@media only screen and (min-width: 64.063em) {
+  .cabecera div:first-child{
+    border-right: 1px solid #dddddd;
+  }
+}
+.fondo{
+  background-color: rgba(66, 33, 199, .5);
+}
+a.fondo:hover,
+button.fondo:hover{
+  background-color:rgba(66, 33, 199, 1);
+}
+.favoritos img,
+.posts img,
+.comentarios img{
+  width: 100%;
+}
+.favoritos img{
+  padding: 5px 0px;
+}
+.marcos{
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.7);
+  color: #fddbf3;
+}
+.historias a,
+.posts h5{
+  color: #4221c7 !important;
+}
+.posts{
+  color: #222222;
+}
+.comentarios{
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+  margin: 10px 0px !important;
+}
+footer,
+footer a{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+}
