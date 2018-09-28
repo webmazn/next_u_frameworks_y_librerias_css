@@ -11,3 +11,6 @@ body{
 .eslogan h5{
   font-style: italic;
 }
+.responsive-img{
+  width: 100%;
+}
