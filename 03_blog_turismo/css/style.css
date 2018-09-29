@@ -14,6 +14,60 @@ body{
 .responsive-img{
   width: 100%;
 }
+.sociales i{
+  margin: 0px 0px 10px 0px;
+}
 .autor{
   margin: 10px 0px;
+}
+.portada{
+  margin: 10px 10px 0px 0px !important;
+  padding: 0px !important;
+}
+.post p{
+  text-align: justify;
+}
+.datos{
+  border-radius: 10px;
+}
+/* label color */
+.input-field label {
+  color: #fff;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+  color: #fff;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+/* valid color */
+.input-field input[type=text].valid,
+.input-field input[type=email].valid,
+.input-field textarea.valid {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+/* invalid color */
+.input-field input[type=text].invalid,
+.input-field input[type=email].invalid,
+.input-field textarea.invalid {
+  border-bottom: 1px solid #f00;
+  box-shadow: 0 1px 0 0 #f00;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #fff;
+}
+.character-counter{
+  color: white;
+}
+.page-footer{
+  padding: 0px;
 }
